@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#search-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 60vw;  /* Set the width to 60% of the viewport width */
+    max-width: 1000px;  /* Set a maximum width so it doesn't get too wide on large screens */
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    position: relative;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px 50px 10px 15px;  /* Increased padding on the right to account for the button */
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#searchButton {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
